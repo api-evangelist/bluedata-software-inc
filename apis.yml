@@ -1,7 +1,25 @@
 aid: bluedata-software-inc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bluedata-software-inc.png
 name: Bluedata Software Inc
-description: Bluedata Software Inc is a company surfaced as a portfolio company of dcvc and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: BlueData Software Inc was a big-data infrastructure company whose EPIC platform ran
+  Hadoop, Spark, and other analytics workloads in Docker containers on-premises and in the cloud.
+  It was a dcvc (Data Collective) portfolio company and was acquired by Hewlett Packard Enterprise
+  (HPE) in 2018; its technology now lives on as the HPE Ezmeral Container Platform. The original
+  www.bluedata.com domain 301-redirects to HPE's container-platform page, and the company no longer
+  operates an independent developer, API, or documentation surface, so there is nothing for the
+  enrichment pipeline to harvest without fabrication. This profile is retained as an acquired-company
+  lead.
 url: https://raw.githubusercontent.com/api-evangelist/bluedata-software-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +27,27 @@ x-backed-by:
 - dcvc
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: HPE
+x-redirects-to: https://www.hpe.com/us/en/solutions/container-platform.html
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Acquired
+- Big Data
+- Containers
+- Analytics
+- Enterprise Software
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
